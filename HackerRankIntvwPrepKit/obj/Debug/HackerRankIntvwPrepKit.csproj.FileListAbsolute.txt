@@ -1,0 +1,7 @@
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\bin\Debug\HackerRankIntvwPrepKit.exe.config
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\bin\Debug\HackerRankIntvwPrepKit.exe
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\bin\Debug\HackerRankIntvwPrepKit.pdb
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\obj\Debug\HackerRankIntvwPrepKit.csprojResolveAssemblyReference.cache
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\obj\Debug\HackerRankIntvwPrepKit.csproj.CoreCompileInputs.cache
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\obj\Debug\HackerRankIntvwPrepKit.exe
+C:\Users\mikes\source\repos\HackerRankIntvwPrepKit\HackerRankIntvwPrepKit\obj\Debug\HackerRankIntvwPrepKit.pdb
