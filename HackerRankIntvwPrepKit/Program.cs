@@ -10,36 +10,43 @@ namespace HackerRankIntvwPrepKit
     {
         static void Main(string[] args)
         {
-            int[] myArray = new int[] { 2,1,5,3,4};
-            int[] myArray2 = new int[] { 2, 5, 1, 3, 4 };
-            int counter = 0;
-            for (int i = 0; i < myArray2.Length; i++)
-            {
-                int sum = myArray2[i] - 1 - i;
-                if(sum == 1)
-                {
-                    counter++;
-                }
-                else if(sum == 2)
-                {
-                    counter += 2;
-                }
-                else if(sum == 3)
-                {
-                    counter = 0;
-                    Console.WriteLine("Too chaotic");
-                   
-                }
-                
-                
+            //int[] myarray = new int[] { 2, 1, 5, 3, 4 };
+            //int[] myArray2 = new int[] { 1,2,5,3,7,8,6,4};
+            //int counter = 0;
+            //for (int i = 0; i < myArray2.Length; i++)
+            //{
+            //    int sum = myArray2[i] - 1 - i;
+            //    if (sum == 1)
+            //    {
+            //        counter++;
+            //        Console.WriteLine(counter);
+            //    }
+            //    else if (sum == 2)
+            //    {
+            //        counter += 2;
+            //        Console.WriteLine(counter);
+            //    }
+            //    else if(sum <= 0)
+            //    {
+            //        Console.WriteLine(counter);
+            //        continue;
+            //    }
+            //    else 
+            //    {
+            //        counter = 0;
+            //        Console.WriteLine("Too chaotic");
+            //        break;
 
-            }
-            if(counter > 0)
-            {
-                Console.WriteLine(counter);
-            }
-            
-            Console.ReadKey();
+            //    }
+
+            //}
+            //if (counter > 0)
+            //{
+            //    Console.WriteLine(counter);
+            //}
+
+            //Console.ReadKey();
+            //************************************************
 
         }
     }
