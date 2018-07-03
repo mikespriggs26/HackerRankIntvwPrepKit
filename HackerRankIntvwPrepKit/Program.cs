@@ -47,6 +47,17 @@ namespace HackerRankIntvwPrepKit
 
             //Console.ReadKey();
             //************************************************
+            //Alternating Characters
+
+            string name = "Ranger";
+            for (int i = 0; i < name.Length; i++)
+            {
+                if(name[i] == 'R')
+                {
+                    Console.WriteLine("Yes");
+                }
+            }
+
 
         }
     }
