@@ -47,17 +47,46 @@ namespace HackerRankIntvwPrepKit
 
             //Console.ReadKey();
             //************************************************
-            //Alternating Characters
+            //Alternating Characters -  SUCCESS!!!
 
-            string name = "Ranger";
-            for (int i = 0; i < name.Length; i++)
+            //string name = "AAABBB";
+            //int counter = 0;
+
+            //for (int i = 1; i < name.Length; i++)
+            //{
+            //    if (name[i] == name[i - 1])
+            //    {
+            //        counter++;
+            //    }
+            //}
+            //Console.WriteLine(counter);
+            //Console.ReadKey();
+
+            //***********************
+            //Arrays - Left Rotation - SUCCESS!!!
+
+            int[] myarray = new int[] { 1,2,3,4,5 };
+            int d = 4;
+            int[] newArray = new int[5];
+
+
+            for (int i = 0; i < myarray.Length; i++)
             {
-                if(name[i] == 'R')
+                if (i >= d)
                 {
-                    Console.WriteLine("Yes");
+                    newArray[i - d] = myarray[i];
+                }
+                else if (i < d)
+                {
+                    newArray[i + (newArray.Length - d)] = myarray[i];
                 }
             }
+            foreach (var item in newArray)
+            {
+                Console.WriteLine(item);
+            }
 
+            Console.ReadKey();
 
         }
     }
