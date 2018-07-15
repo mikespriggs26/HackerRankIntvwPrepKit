@@ -10,40 +10,42 @@ namespace HackerRankIntvwPrepKit
     {
         static void Main(string[] args)
         {
-            //int[] myarray = new int[] { 2, 1, 5, 3, 4 };
-            //int[] myArray2 = new int[] { 1,2,5,3,7,8,6,4};
-            //int counter = 0;
-            //for (int i = 0; i < myArray2.Length; i++)
-            //{
-            //    int sum = myArray2[i] - 1 - i;
-            //    if (sum == 1)
-            //    {
-            //        counter++;
-            //        Console.WriteLine(counter);
-            //    }
-            //    else if (sum == 2)
-            //    {
-            //        counter += 2;
-            //        Console.WriteLine(counter);
-            //    }
-            //    else if(sum <= 0)
-            //    {
-            //        Console.WriteLine(counter);
-            //        continue;
-            //    }
-            //    else 
-            //    {
-            //        counter = 0;
-            //        Console.WriteLine("Too chaotic");
-            //        break;
+            int[] myArray = new int[] { 2, 5, 1, 3, 4 };
+            int[] myArray1 = new int[] { 2, 1, 5, 3, 4 };
+            int[] myArray2 = new int[] { 1, 2, 5, 3, 7, 8, 6, 4 };
+            int[] myArray3 = new int[] { 5, 1, 2, 3, 7, 8, 6, 4 };
+            int counter = 0;
+            for (int i = 0; i < myArray2.Length; i++)
+            {
+                int sum = myArray2[i] - 1 - i;//measures displacement
+                if (sum == 1)
+                {
+                    counter++;
+                    //Console.WriteLine(counter);
+                }
+                else if (sum == 2)
+                {
+                    counter += 2;
+                    //Console.WriteLine(counter);
+                }
+                else if (sum <= 0)
+                {
+                    //Console.WriteLine(counter);
+                    continue;
+                }
+                else
+                {
+                    counter = 0;
+                    Console.WriteLine("Too chaotic");
+                    break;
 
-            //    }
+                }
 
-            //}
-            //if (counter > 0)
-            //{
-            //    Console.WriteLine(counter);
-            //}
+            }
+            if (counter > 0)
+            {
+                Console.WriteLine(counter);
+            }
 
             //Console.ReadKey();
             //************************************************
@@ -65,26 +67,26 @@ namespace HackerRankIntvwPrepKit
             //***********************
             //Arrays - Left Rotation - SUCCESS!!!
 
-            int[] myarray = new int[] { 1,2,3,4,5 };
-            int d = 4;
-            int[] newArray = new int[5];
+            //int[] myarray = new int[] { 1,2,3,4,5 };
+            //int d = 4;
+            //int[] newArray = new int[5];
 
 
-            for (int i = 0; i < myarray.Length; i++)
-            {
-                if (i >= d)
-                {
-                    newArray[i - d] = myarray[i];
-                }
-                else if (i < d)
-                {
-                    newArray[i + (newArray.Length - d)] = myarray[i];
-                }
-            }
-            foreach (var item in newArray)
-            {
-                Console.WriteLine(item);
-            }
+            //for (int i = 0; i < myarray.Length; i++)
+            //{
+            //    if (i >= d)
+            //    {
+            //        newArray[i - d] = myarray[i];
+            //    }
+            //    else if (i < d)
+            //    {
+            //        newArray[i + (newArray.Length - d)] = myarray[i];
+            //    }
+            //}
+            //foreach (var item in newArray)
+            //{
+            //    Console.WriteLine(item);
+            //}
 
             Console.ReadKey();
 
